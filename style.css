@@ -1,0 +1,70 @@
+
+  .container{
+    background: #E5E5E5;
+    display: grid;
+    grid-gap: 62px;
+    width: 700px;
+    height: 560px;
+}
+.heading{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+.t-left{
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    width: 325px;
+    height: 285px;
+}
+.bot-left{
+    position: absolute;
+    top: 390px;
+    left: 30px;
+    width: 325px;
+    height: 160px;
+}
+.mid-top{
+    position: absolute;
+    top: 90px;
+    left: 370px;
+    width: 151px;
+    height: 135px;
+}
+.mid{
+    position: absolute;
+    top: 240px;
+    left: 370px;
+    width: 151px;
+    height: 135px;
+}
+.bot-right{
+    position: absolute;
+    top: 390px;
+    left: 370px;
+    width: 320px;
+    height: 160px;
+}
+.read{
+    position: absolute;
+    top: 500px;
+    left: 560px;
+    font-size: 24px;
+    z-index: 1;
+}
+.t-right{
+    position: absolute;
+    top: 90px;
+    left: 537px;
+    width: 151px;
+    height: 135px;
+}
+.mid-right{
+    position: absolute;
+    top: 240px;
+    left: 537px;
+    width: 151px;
+    height: 135px;
+}
+  
