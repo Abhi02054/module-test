@@ -1,70 +1,77 @@
-
-  .container{
-    background: #E5E5E5;
-    display: grid;
-    grid-gap: 62px;
-    width: 700px;
-    height: 560px;
+body{
+  background-color: black;
+  padding:1rem;
 }
-.heading{
-    position: absolute;
-    top: 10px;
-    left: 30px;
+header{
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 58.09px;
+  color: #FFFFFF;
+  width: auto;
 }
-.t-left{
-    position: absolute;
-    top: 90px;
-    left: 30px;
-    width: 325px;
-    height: 285px;
+.labels{
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  margin-right: 1rem;
+  padding:0;
+  width: 150px;
+  height:30;
+  box-sizing: border-box;
 }
-.bot-left{
-    position: absolute;
-    top: 390px;
-    left: 30px;
-    width: 325px;
-    height: 160px;
+input[type="text"]{
+  box-sizing: border-box;
+  background-color: black;
+  border: 1px solid white;
+  color: #FFFFFF;
+  width: 150px;
+  height:30;
 }
-.mid-top{
-    position: absolute;
-    top: 90px;
-    left: 370px;
-    width: 151px;
-    height: 135px;
+#issueBtn{
+  height: 2rem;
+  width: inherit;
+  left: 65px;
+  top: 384px;
+  border-radius: 0px;
 }
-.mid{
-    position: absolute;
-    top: 240px;
-    left: 370px;
-    width: 151px;
-    height: 135px;
+form{
+  width:60%;
+  height:30%;
+  margin-bottom:3rem;
 }
-.bot-right{
-    position: absolute;
-    top: 390px;
-    left: 370px;
-    width: 320px;
-    height: 160px;
+form p{
+  width:inherit;
+  height:inherit;
 }
-.read{
-    position: absolute;
-    top: 500px;
-    left: 560px;
-    font-size: 24px;
-    z-index: 1;
+#issued-books-table {
+  width:100%;
+  min-height: 150px;
+  border:1px solid white;
+  color:white;
 }
-.t-right{
-    position: absolute;
-    top: 90px;
-    left: 537px;
-    width: 151px;
-    height: 135px;
+th,tr,td{
+  width:50px;
+  padding:1rem 0;
+  border-collapse: collapse;
+  text-align: center;
 }
-.mid-right{
-    position: absolute;
-    top: 240px;
-    left: 537px;
-    width: 151px;
-    height: 135px;
+th{
+  border-right: 1px solid #FFFFFF;
+  border-bottom:1px solid #FFFFFF;
 }
-  
+td{
+  border-right:1px solid #FFFFFF;
+}
+.no-border{
+  border-right: 0;
+}
+.status-returned {
+  color: green;
+}
+.status-not-returned {
+   color: red;
+}
