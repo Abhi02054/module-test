@@ -1,77 +1,61 @@
-body{
-  background-color: black;
-  padding:1rem;
-}
-header{
-  font-size: 48px;
-  font-weight: 400;
-  line-height: 58.09px;
-  color: #FFFFFF;
-  width: auto;
-}
-.labels{
-  font-family: Inter;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 29px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #FFFFFF;
-  margin-right: 1rem;
-  padding:0;
-  width: 150px;
-  height:30;
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,600&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
 }
-input[type="text"]{
-  box-sizing: border-box;
+
+.navi {
   background-color: black;
-  border: 1px solid white;
-  color: #FFFFFF;
-  width: 150px;
-  height:30;
+  height: 60px;
+  padding: 20px;
+  color: white;
 }
-#issueBtn{
-  height: 2rem;
-  width: inherit;
-  left: 65px;
-  top: 384px;
-  border-radius: 0px;
+.butn button {
+  background-color: black;
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 30px;
+  width: 300px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
 }
-form{
-  width:60%;
-  height:30%;
-  margin-bottom:3rem;
-}
-form p{
-  width:inherit;
-  height:inherit;
-}
-#issued-books-table {
-  width:100%;
-  min-height: 150px;
-  border:1px solid white;
-  color:white;
-}
-th,tr,td{
-  width:50px;
-  padding:1rem 0;
+table {
+  color: black;
+  border: 1px solid black;
   border-collapse: collapse;
+  height: 300px;
+  width: 100%;
+  outline: none;
   text-align: center;
 }
-th{
-  border-right: 1px solid #FFFFFF;
-  border-bottom:1px solid #FFFFFF;
+
+.heads td {
+  border: 1px solid black;
+  padding-left: 20px;
 }
-td{
-  border-right:1px solid #FFFFFF;
+td {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+
+  padding: 20px;
 }
-.no-border{
-  border-right: 0;
+.tablebox {
+  margin: 20px;
 }
-.status-returned {
-  color: green;
+
+input {
+  height: 30px;
+  width: 150px;
+  padding: 10px;
 }
-.status-not-returned {
-   color: red;
+
+.savebutt {
+  height: 30px;
+  width: 60px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
 }

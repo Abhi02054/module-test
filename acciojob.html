@@ -1,40 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>Library Management system</header>
-  <form id="issue-form">
-      <p>
-          <label class="form labels" for="book-name">Book Name</label>
-          <input id="book-name" type="text">
-      </p>
-      <p>
-          <label class="form labels" for="issued-to">Issued To</label>
-          <input id="issued-to" type="text">
-      </p>
-      <p><button type="submit" id="issueBtn">Issue Book</button></p>
-  </form>
-  <table id="issued-books-table">
-      <thead>
-          <tr>
-              <th>ID</th>
-              <th>Book Name</th>
-              <th>Issued To</th>
-              <th>Issue Date and Time</th>
-              <th class="no-border">Status</th>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navi">
+      <h1>DashBoard</h1>
+    </nav>
+    <div class="butn">
+      <button id="but">Add a new Row</button>
+    </div>
+
+    <div class="tablebox">
+      <table>
+        <thead>
+          <tr class="heads">
+            <td>ID</td>
+            <td>Student Name</td>
+            <td>Student Roll</td>
+            <td>Subject</td>
+            <td>Marks</td>
+            <td>Marked By</td>
+            <td>Save</td>
           </tr>
-      </thead>
-      <tbody>
-      </tbody>
-  </table>
-
-<script src="main.js"></script>
-
-</body>
+        </thead>
+        <tbody id="hello"></tbody>
+      </table>
+    </div>
+    <script src="main.js"></script>
+  </body>
 </html>
